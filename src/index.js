@@ -40,6 +40,7 @@ async function onSubmit(e) {
   imageApiService.query = e.currentTarget.elements.searchQuery.value;
 
   if (imageApiService.query === '') {
+    loadMoreBtn.hide();
     return messages.empty();
   }
 
