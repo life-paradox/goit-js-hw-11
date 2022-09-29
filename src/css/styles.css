@@ -92,6 +92,10 @@ button:hover {
   box-shadow: 3px 3px 3px #777;
 }
 
+.photo-card:hover {
+  box-shadow: 6px 6px 6px rgb(125, 124, 145);
+}
+
 .photo-link {
   width: 100%;
   height: 100%;
